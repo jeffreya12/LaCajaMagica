@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+  android:background="@drawable/fondo_cancha"
+  tools:context="cr.ac.tec.la_caja_magica.OtherFeatures.Virtues">
+
+  seeRespectpeto, solidaridad, diversidad, inclusión/ equidad, empatía, libertad, responsabilidad,
+  honestidseeLoveamoseePeace paz-->
+
+    <ImageButton
+      android:id="@+id/imageButtonRespeto"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+      android:layout_marginTop="250dp"
+        android:layout_alignLeft="@+id/imageButtonLibertad"
+        android:layout_alignStart="@+id/imageButtonLibertad"
+      android:layout_below="@+id/textViewTituloValores"
+      android:background="@drawable/respeto_logo"
+      android:clickable="true"
+      android:onClick="seeRespect"/>
+
+    <ImageButton
+      android:id="@+id/imageButtonSolidaridad"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+      android:layout_marginStart="50dp"
+      android:layout_marginLeft="50dp"
+        android:layout_alignTop="@+id/imageButtonRespeto"
+        android:layout_toEndOf="@+id/imageButtonRespeto"
+      android:layout_toRightOf="@+id/imageButtonRespeto"
+        android:background="@drawable/solidaridad_logo"
+      android:clickable="true"
+      android:onClick="seeSolidarity"/>
+
+    <ImageButton
+      android:id="@+id/imageButtonDiversidad"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+      android:layout_marginLeft="50dp"
+        android:layout_alignTop="@+id/imageButtonSolidaridad"
+        android:layout_toEndOf="@+id/imageButtonSolidaridad"
+      android:layout_toRightOf="@+id/imageButtonSolidaridad"
+        android:background="@drawable/diversidad_logo"
+      android:clickable="true"
+      android:onClick="seeDiversity"/>
+
+    <ImageButton
+      android:id="@+id/imageButtonEquidad"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+      android:layout_marginRight="50dp"
+        android:layout_alignTop="@+id/imageButtonRespeto"
+        android:layout_toLeftOf="@+id/imageButtonRespeto"
+        android:layout_toStartOf="@+id/imageButtonRespeto"
+        android:background="@drawable/equidad_logo"
+      android:clickable="true"
+      android:onClick="seeEquality"/>
+
+    <ImageButton
+      android:id="@+id/imageButtonEmpatia"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+      android:layout_marginRight="50dp"
+        android:layout_alignTop="@+id/imageButtonEquidad"
+        android:layout_toLeftOf="@+id/imageButtonEquidad"
+        android:layout_toStartOf="@+id/imageButtonEquidad"
+        android:background="@drawable/empatia_logo"
+      android:clickable="true"
+      android:onClick="seeEmpathy"/>
+
+    <ImageButton
+      android:id="@+id/imageButtonLibertad"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+      android:layout_marginTop="40dp"
+        android:layout_below="@+id/imageButtonRespeto"
+        android:layout_centerHorizontal="true"
+      android:background="@drawable/libertad_logo"
+      android:clickable="true"
+      android:onClick="seeLiberty"/>
+
+    <ImageButton
+      android:id="@+id/imageButtonResponsabilidad"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/imageButtonSolidaridad"
+        android:layout_alignStart="@+id/imageButtonSolidaridad"
+      android:layout_alignTop="@+id/imageButtonLibertad"
+        android:background="@drawable/responsabilidad_logo"
+      android:clickable="true"
+      android:onClick="seeResponsibility"/>
+
+    <ImageButton
+      android:id="@+id/imageButtonHonestidad"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/imageButtonResponsabilidad"
+        android:layout_alignLeft="@+id/imageButtonDiversidad"
+        android:layout_alignStart="@+id/imageButtonDiversidad"
+        android:background="@drawable/honestidad_logo"
+      android:clickable="true"
+      android:onClick="seeHonesty"/>
+
+    <ImageButton
+      android:id="@+id/imageButtonAmor"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/imageButtonLibertad"
+        android:layout_alignEnd="@+id/imageButtonEquidad"
+      android:layout_alignRight="@+id/imageButtonEquidad"
+        android:background="@drawable/amor_logo"
+      android:clickable="true"
+      android:onClick="seeLove"/>
+
+    <ImageButton
+      android:id="@+id/imageButtonPaz"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/imageButtonAmor"
+        android:layout_alignEnd="@+id/imageButtonEmpatia"
+      android:layout_alignRight="@+id/imageButtonEmpatia"
+        android:background="@drawable/paz_logo"
+      android:clickable="true"
+      android:onClick="seePeace"/>
+
+    <TextView
+      android:id="@+id/textViewTituloValores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:text="Nuestros Valores"
+      android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+</RelativeLayout>

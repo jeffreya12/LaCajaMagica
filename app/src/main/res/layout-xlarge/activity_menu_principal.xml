@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_domo"
+  android:orientation="horizontal"
+  tools:context="cr.ac.tec.la_caja_magica.OtherFeatures.MainMenu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+          android:id="@+id/buttonJugar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+          android:layout_marginStart="49dp"
+          android:layout_marginLeft="49dp"
+            android:layout_alignLeft="@+id/buttonTutorial"
+            android:layout_alignStart="@+id/buttonTutorial"
+          android:layout_centerVertical="true"
+          android:background="@drawable/play_now"
+          android:onClick="selectCharacter"/>
+
+        <Button
+          android:id="@+id/buttonTutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="36dp"
+          android:layout_marginRight="36dp"
+            android:layout_above="@+id/buttonVerParque"
+            android:layout_alignParentEnd="true"
+          android:layout_alignParentRight="true"
+          android:background="@drawable/button_large"
+          android:onClick="playTutorial"
+          android:text="Tutorial"/>
+
+        <Button
+          android:id="@+id/buttonVerParque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+            android:layout_above="@+id/buttonValores"
+            android:layout_alignEnd="@+id/buttonTutorial"
+          android:layout_alignRight="@+id/buttonTutorial"
+            android:background="@drawable/button_large"
+          android:onClick="seeParkInfo"
+          android:text="El Parque"/>
+
+        <Button
+          android:id="@+id/buttonValores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+            android:layout_above="@+id/buttonAbout"
+            android:layout_alignRight="@+id/buttonTutorial"
+            android:background="@drawable/button_large"
+          android:onClick="seeVirtues"
+          android:text="Nuestros Valores"/>
+
+        <Button
+          android:id="@+id/buttonAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:layout_marginBottom="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/buttonValores"
+            android:background="@drawable/button_large"
+          android:onClick="dialogAbout"
+          android:text="Acerca de nosotros"/>
+
+        <TextView
+            android:id="@+id/textViewTituloPrincipal"
+            android:textStyle="bold"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+          android:layout_marginLeft="40dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/buttonJugar"
+          android:layout_toStartOf="@+id/buttonJugar"
+          android:text="LA CAJA MÁGICA"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textSize="60dp"/>
+
+        <ImageView
+          android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_above="@+id/imageView3"
+            android:layout_alignLeft="@+id/textViewTituloPrincipal"
+          android:layout_alignStart="@+id/textViewTituloPrincipal"
+          android:background="@drawable/logo_parque"/>
+
+        <ImageView
+          android:id="@+id/imageView3"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/imageView2"
+            android:layout_alignStart="@+id/imageView2"
+          android:layout_below="@+id/buttonValores"
+          android:background="@drawable/tec"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_mute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView2"
+            android:layout_alignStart="@+id/imageView2"
+          android:layout_alignTop="@+id/buttonVerParque"
+          android:buttonTint="@color/common_google_signin_btn_text_dark_default"
+          android:checked="false"
+          android:clickable="false"
+          android:onClick="muteMusic"
+          android:text="Silenciar"
+          android:textSize="25dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

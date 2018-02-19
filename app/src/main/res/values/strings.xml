@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">La Caja Mágica</string>
+
+    <!--Path de las fuentes-->
+
+    <string name="font_path" translatable="false">fonts/8-BIT.TTF</string>
+
+    <string name="fontLarge_path" translatable="false">fonts/PixelOperator8-Bold.ttf</string>
+
+    <!--Texto tutorial-->
+
+    <string name="tutorial_saltar">
+        Toque la pantalla para saltar.
+    </string>
+    <string name="tutorial_plataformas">
+        Salta encima de las plataformas.
+    </string>
+    <string name="tutorial_caer">
+        Si caes de la pantalla, pierdes.
+    </string>
+    <string name="tutorial_enemigos">
+        Atrapa los valores.
+    </string>
+    <string name="tutorial_valores">
+        Si chocas con un enemigo, pierdes.
+    </string>
+
+    <!--About-->
+
+    <string name="about">
+        <![CDATA[
+            <p>
+
+                La idea detrás de La Caja Mágica es hacer llegar al público en general una manera entretenida y dinámica de aprender sobre los valores que deben de identificarnos como sociedad.
+
+            <p>
+            <b>Equipo desarrollador:</b>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Carlos Villalobos
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Jeffrey Alvarado
+            <br>
+            <b>Diseño:</b>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Raquel Quirós
+            <br>
+            <b>Música:</b>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;DJ Zoster
+            <br>
+            <b>Otros colaboradores:</b>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Adriana Álvarez
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Esteban Fonseca
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Victor Aguirre
+        ]]>
+    </string>
+
+  Virtuesores-->
+
+    <string name="amor">
+        <![CDATA[
+            <b>Amor: </b>El amor es cuando demuestro de muchas formas mi interés, afecto y aprecio hacia las demás personas y el medio que me rodea.
+            <br><br>
+            <b><i>¡El amor es una de las muestras de afecto más sinceras hacia los demás!</i></b>
+        ]]>
+    </string>
+
+    <string name="paz">
+        <![CDATA[
+            <b>Paz: </b>La paz es cuando vivo con tranquilidad, respeto y en armonía con los demás.
+            <br><br>
+            <b><i>¡La paz la podemos trasmitir a los demás!</i></b>
+        ]]>
+    </string>
+
+    <string name="respeto">
+        <![CDATA[
+            <b>Respeto: </b>El respeto es cuando aprecio y acepto las opiniones, las acciones y las cualidades de los demás.
+            <br><br>
+            <b><i>¡Me respeto a mí mismo y respeto a los demás!</i></b>
+        ]]>
+    </string>
+
+    <string name="solidaridad">
+        <![CDATA[
+            <b>Solidaridad: </b>Solidaridad es cuando ayudo y soy generoso con la persona que lo necesita, sin esperar nada a cambio.
+            <br><br>
+            <b><i>¡Si trabajamos en equipo, podemos lograr/construir grandes cosas!</i></b>
+        ]]>
+    </string>
+
+    <string name="diversidad">
+        <![CDATA[
+            <b>Diversidad: </b>Diversidad es cuando comparto y convivo con las demás personas según su género, gustos, preferencias, religión, etnia, cultura y condición social.
+            <br><br>
+            <b><i>¡Aprendamos de la diversidad; todos somos diferentes!</i></b>
+        ]]>
+    </string>
+
+    <string name="equidad">
+        <![CDATA[
+            <b>Inclusividad / equidad: </b>La inclusividad es cuando comparto e invito a participar por igual a todas las personas con sus habilidades.
+            <br><br>
+            <b><i>¡Disfrutemos de nuestros derechos; todos somos iguales!</i></b>
+        ]]>
+    </string>
+
+    <string name="empatia">
+        <![CDATA[
+            <b>Empatía: </b>La empatía es cuando me pongo en el lugar de los demás para entender sus emociones, sentimientos y necesidades.
+            <br><br>
+            <b><i>¡La amistad nos ayuda valorar a los demás!</i></b>
+        ]]>
+    </string>
+
+    <string name="libertad">
+        <![CDATA[
+            <b>Libertad: </b>La libertad es cuando pienso y actúo según mi propio deseo e interés, siempre que respete las reglas, los límites y los derechos de los demás.
+            <br><br>
+            <b><i>¡Expresémonos libremente, es nuestro derecho!</i></b>
+        ]]>
+    </string>
+
+    <string name="responsabilidad">
+        <![CDATA[
+            <b>Responsabilidad: </b>La responsabilidad es comprometerme y cumplir con mis deberes y mis acciones.
+            <br><br>
+            <b><i>¡Con la responsabilidad, sembramos el éxito!</i></b>
+        ]]>
+    </string>
+
+    <string name="honestidad">
+        <![CDATA[
+            <b>Honestidad: </b>La honestidad es cuando pienso, me expreso y actúo siempre con la verdad con uno mismo y con los demás.
+            <br><br>
+            <b><i>¡La honestidad es la puerta para una sana convivencia!</i></b>
+        ]]>
+    </string>
+
+    <!--Lugares del parque-->
+
+    <string name="skate_park">
+        <![CDATA[
+            <b>Skate Park</b>
+            <br>
+            Desarrollamos y facilitamos espacios de diálogo y encuentro para el crecimiento personal y el fortalecimiento de las capacidades y destrezas de las personas adolescentes y jóvenes.
+            <br>
+        ]]>
+    </string>
+
+    <string name="ppl">
+        <![CDATA[
+            <b>Fundación Parque La Libertad</b>
+            <br>
+            El Parque La Libertad es un proyecto de bienestar humano e inclusión social que busca mejorar la calidad de vida de las comunidades aledañas mediante su desarrollo económico, social y ambiental.
+            <br>
+        ]]>
+    </string>
+
+    <string name="cetav">
+        <![CDATA[
+            <b>CETAV - Centro de Tecnología y Artes Visuales</b>
+            <br>
+            En el Centro de Tecnología y Artes Visuales, buscamos fomentar el desarrollo humano y la formación de personas jóvenes por medio de la especialización técnica.
+            <br>
+        ]]>
+    </string>
+
+    <string name="auditorio">
+        <![CDATA[
+            <b>Auditorio La Libertad</b>
+            <br>
+            El Auditorio La Libertad es un espacio que busca acercar las expresiones artísticas y culturales a las comunidades aledañas al Parque La Libertad.
+            <br>
+        ]]>
+    </string>
+
+    <string name="escuela_de_danza">
+        <![CDATA[
+            <b>Escuela de Danza, Teatro y Circo</b>
+            <br>
+            En la escuela de danza, teatro y circo, tenemos el propósito de formar niños/as, adolescentes y jóvenes que se desempeñen con alta calidad como intérpretes y gestores en teatro, danza y circo, que brinden un aporte significativo a la cultura local y nacional.
+            <br>
+        ]]>
+    </string>
+
+    <string name="campo_ferial">
+        <![CDATA[
+            <b>Campo Ferial</b>
+            <br>
+            Un espacio para desarrollar actividades culturales y recreativas. Donde se llevan a cabo bailes, conciertos, ferias y mucho más.
+            <br>
+        ]]>
+    </string>
+    <string name="nuestros_valores">Nuestros Valores</string>
+    <string name="seleccione_personaje">Seleccione un personaje</string>
+    <string name="el_parque">El Parque</string>
+    <string name="acerca_de_nosotros">Acerca de nosotros</string>
+    <string name="titulo_app">LA CAJA MÁGICA</string>
+    <string name="mute">Silenciar</string>
+    <string name="seleccione_lugar">Selecciona una ubicación</string>
+  <string name="select_difficulty">Seleccione una difficulty</string>
+    <string name="dificil">Difícil</string>
+    <string name="intermedio">Intermedio</string>
+    <string name="facil">Fácil</string>
+    <string name="saltar">Saltar</string>
+    <string name="platformas">Plataformas</string>
+    <string name="caer">Caer</string>
+    <string name="valores">Valores</string>
+    <string name="enemigos">Enemigos</string>
+    <string name="seleccione_tutorial">Selecciona un tutorial</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="menu_principal">Menú Principal</string>
+    <string name="termino_juego">¡Termino el juego!</string>
+    <string name="tutorial">Tutorial</string>
+
+</resources>

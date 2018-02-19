@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="443dp"
+        android:layout_height="288dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="110dp"
+            android:id="@+id/imageViewAbout"
+            android:background="@drawable/tec"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:src="@drawable/tec" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollViewAbout"
+            android:layout_gravity="center_horizontal" >
+
+            <charlie.la_caja_magica.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge Text"
+                android:id="@+id/textViewAbout" />
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

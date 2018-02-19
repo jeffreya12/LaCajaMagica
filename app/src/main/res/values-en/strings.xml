@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">The Magic Box</string>
+
+    <!--Texto tutorial-->
+
+    <string name="tutorial_saltar">
+        Touch the screen to jump
+    </string>
+    <string name="tutorial_plataformas">
+        Jump on the platforms
+    </string>
+    <string name="tutorial_caer">
+        If you fall off the screen, you lose
+    </string>
+    <string name="tutorial_enemigos">
+        Catch the virtues
+    </string>
+    <string name="tutorial_valores">
+        If you hit an enemy, you lose
+    </string>
+
+    <!--About-->
+
+    <string name="about">
+        <![CDATA[
+            <p>
+
+                The idea behind The Magic Box is to bring an entertaining and dynamic mean to learn about the virtues that should identify us as society to the general public.
+            <p>
+            <b>Developer Team:</b>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Carlos Villalobos
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Jeffrey Alvarado
+            <br>
+            <b>Design:</b>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Raquel Quirós
+            <br>
+            <b>Music:</b>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;DJ Zoster
+            <br>
+            <b>Other Colaborators:</b>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Adriana Álvarez
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Esteban Fonseca
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Victor Aguirre
+        ]]>
+    </string>
+
+  Virtuesores-->
+
+    <string name="amor">
+        <![CDATA[
+            <b>Love: </b>Love is when I show by several ways my interest, care and affection to other people and my surroundings.
+            <br><br>
+            <b><i>Love is one of the most sincere ways of affection towards others!</i></b>
+        ]]>
+    </string>
+
+    <string name="paz">
+        <![CDATA[
+            <b>Peace: </b>Peace is when I live in harmony, respect and tranquility with others.
+            <br><br>
+            <b><i>We can pass the peace to others!</i></b>
+        ]]>
+    </string>
+
+    <string name="respeto">
+        <![CDATA[
+            <b>Respect: </b>Respect is when I appreciate and accept everyone else\' opinions, actions and qualities.
+            <br><br>
+            <b><i>I respect myself and others!</i></b>
+        ]]>
+    </string>
+
+    <string name="solidaridad">
+        <![CDATA[
+            <b>Solidarity: </b>Solidarity is when I help those who needs to and I\'m generous with them without expecting anything in return.
+            <br><br>
+            <b><i>If We act as a team, We can achieve and build great things!</i></b>
+        ]]>
+    </string>
+
+    <string name="diversidad">
+        <![CDATA[
+            <b>Diversity: </b>Diversity is when I share and get along with other people regardless of their gender, religion, ethnicity, culture, likings or social status.
+            <br><br>
+            <b><i>Let\'s learn from diversity, We are all different!</i></b>
+        ]]>
+    </string>
+
+    <string name="equidad">
+        <![CDATA[
+            <b>Inclusiveness / Equality: </b>Inclusiveness is when I share and encourage everyone as equals to get involved with their skills.
+            <br><br>
+            <b><i>Let\'s all enjoy our rights! Everyone is equal!</i></b>
+        ]]>
+    </string>
+
+    <string name="empatia">
+        <![CDATA[
+            <b>Empathy: </b>Empathy is when I put myself in place of others to understand their emotions, feelings and needs.
+            <br><br>
+            <b><i>Empathy helps us to care for others!</i></b>
+        ]]>
+    </string>
+
+    <string name="libertad">
+        <![CDATA[
+            <b>Freedom: </b>Freedom is when I think and act by my own will and interest, as long as I respect the rules, the limits and right of others.
+            <br><br>
+            <b><i>Let\'s express ourselves freely! It\'s our right!</i></b>
+        ]]>
+    </string>
+
+    <string name="responsabilidad">
+        <![CDATA[
+            <b>Responsibility: </b>Responsibility means to compromise and to do my duties and actions.
+            <br><br>
+            <b><i>With responsibility We achieve success!</i></b>
+        ]]>
+    </string>
+
+    <string name="honestidad">
+        <![CDATA[
+            <b>Honesty: </b>Honesty is when I think, act and express myself being true to myself and to others.
+            <br><br>
+            <b><i>Honesty is the door to a healty coexistence!</i></b>
+        ]]>
+    </string>
+
+    <!--Lugares del parque-->
+
+    <string name="skate_park">
+        <![CDATA[
+            <b>Skate Park</b>
+            <br>
+            We develop and enable spaces to dialogue and encounter for personal growth and the improvement of teenagers and young adults\' capabilities.
+            <br>
+        ]]>
+    </string>
+
+    <string name="ppl">
+        <![CDATA[
+            <b>La Libertad Park Foundation</b>
+            <br>
+            The La Libertad Park is a project of human welfare and social inclusiveness that aims to improve the surrounding communities\' quality of life by economy, social and environmental development.
+            <br>
+        ]]>
+    </string>
+
+    <string name="cetav">
+        <![CDATA[
+            <b>CTVA - Center of Technology and Visual Arts</b>
+            <br>
+            In the CTVA We strive to encourage human development and the formation of young people by means of technical specialization.
+            <br>
+        ]]>
+    </string>
+
+    <string name="auditorio">
+        <![CDATA[
+            <b>La Libertad Auditorium</b>
+            <br>
+            The La Libertad Auditorium is a place to gather the surrounding populations to artistic and cultural expressions.
+            <br>
+        ]]>
+    </string>
+
+    <string name="escuela_de_danza">
+        <![CDATA[
+            <b>School of Dance, Theater and Circus</b>
+            <br>
+            We at the School of Dance, Theater and Circus have the purpose of teaching children, teenagers and young people to give their best as high-quality performers and producers in theater, dance and circus acts, bringing important contributions to local and national culture.
+            <br>
+        ]]>
+    </string>
+
+    <string name="campo_ferial">
+        <![CDATA[
+            <b>Fairground</b>
+            <br>
+            It is a place to perform cultural and recreational activities, such as dancing, concerts, fairs and many more.
+            <br>
+        ]]>
+    </string>
+    <string name="nuestros_valores">Our virtues</string>
+    <string name="seleccione_personaje">Select a character</string>
+    <string name="el_parque">The Park</string>
+    <string name="acerca_de_nosotros">About Us</string>
+    <string name="titulo_app">THE MAGIC BOX</string>
+    <string name="mute">Mute</string>
+    <string name="seleccione_lugar">Select a place</string>
+    <string name="select_difficulty">Select a difficulty</string>
+    <string name="dificil">Hard</string>
+    <string name="intermedio">Medium</string>
+    <string name="facil">Easy</string>
+    <string name="saltar">Jump</string>
+    <string name="platformas">Plataforms</string>
+    <string name="caer">Falling</string>
+    <string name="valores">Virtues</string>
+    <string name="enemigos">Enemies</string>
+    <string name="seleccione_tutorial">Select a tutorial</string>
+    <string name="reintentar">Retry</string>
+    <string name="menu_principal">Main Menu</string>
+    <string name="termino_juego">Game Over!</string>
+    <string name="tutorial">Tutorial</string>
+
+</resources>

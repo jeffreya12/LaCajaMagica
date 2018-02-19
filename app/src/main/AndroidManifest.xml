@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  package="charlie.la_caja_magica"
+  >
+
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+  <application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:largeHeap="true"
+    android:screenOrientation="landscape"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    >
+    <activity
+      android:name="cr.ac.tec.la_caja_magica.OtherFeatures.Splash"
+      android:screenOrientation="landscape"
+      >
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity
+      android:name="cr.ac.tec.la_caja_magica.OtherFeatures.MainMenu"
+      android:screenOrientation="landscape"
+      />
+    <activity
+      android:name="cr.ac.tec.la_caja_magica.GameLogic.CharacterSelection"
+      android:screenOrientation="landscape"
+      />
+    <activity
+      android:name="cr.ac.tec.la_caja_magica.GameLogic.GameStart"
+      android:screenOrientation="landscape"
+      />
+    <activity
+      android:name="cr.ac.tec.la_caja_magica.OtherFeatures.Virtues"
+      android:screenOrientation="landscape"
+      />
+    <activity
+      android:name="cr.ac.tec.la_caja_magica.OtherFeatures.Park"
+      android:screenOrientation="landscape"
+      />
+    <activity
+      android:name="cr.ac.tec.la_caja_magica.GameTutorial.TutorialStart"
+      android:screenOrientation="landscape"
+      />
+    <activity
+      android:name="cr.ac.tec.la_caja_magica.GameTutorial.TutorialSelection"
+      android:screenOrientation="landscape"
+      />
+    <activity
+      android:name="cr.ac.tec.la_caja_magica.GameLogic.GameOver"
+      android:screenOrientation="landscape"
+      />
+    <activity
+      android:name="cr.ac.tec.la_caja_magica.GameLogic.DifficultySelection"
+      android:screenOrientation="landscape"
+      >
+    </activity>
+  </application>
+
+</manifest>

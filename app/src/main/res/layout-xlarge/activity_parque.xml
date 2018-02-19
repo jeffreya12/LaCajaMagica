@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+  android:background="@drawable/fondo_parque_bosque"
+  tools:context="cr.ac.tec.la_caja_magica.OtherFeatures.Park">
+
+    <TextView
+      android:id="@+id/textViewTituloParque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:text="Selecciona una ubicacion"
+      android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <RelativeLayout
+      android:id="@+id/relativeLayout"
+        android:layout_width="800dp"
+        android:layout_height="500dp"
+      android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+      android:layout_gravity="center"
+      android:background="@drawable/mapa">
+
+        <ImageButton
+          android:id="@+id/imageButtonSkatePark"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+          android:layout_marginTop="211dp"
+            android:layout_centerHorizontal="true"
+          android:background="@drawable/indicator"
+          android:onClick="seeSkatePark"/>
+
+        <ImageButton
+          android:id="@+id/imageButtonCetav"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="96dp"
+            android:layout_alignBottom="@+id/imageButtonSkatePark"
+            android:layout_alignLeft="@+id/imageButtonPPL"
+          android:layout_alignStart="@+id/imageButtonPPL"
+          android:background="@drawable/indicator"
+          android:onClick="seeCetav"/>
+
+        <ImageButton
+          android:id="@+id/imageButtonPPL"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="75dp"
+          android:layout_marginRight="75dp"
+            android:layout_below="@+id/imageButtonCampoFerial"
+            android:layout_toLeftOf="@+id/imageButtonAuditorio"
+          android:layout_toStartOf="@+id/imageButtonAuditorio"
+          android:background="@drawable/indicator"
+          android:onClick="seeParqueLaLibertad"/>
+
+        <ImageButton
+          android:id="@+id/imageButtonAuditorio"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+          android:layout_marginEnd="33dp"
+          android:layout_marginRight="33dp"
+            android:layout_below="@+id/imageButtonEscuelaDanza"
+            android:layout_toLeftOf="@+id/imageButtonEscuelaDanza"
+            android:layout_toStartOf="@+id/imageButtonEscuelaDanza"
+          android:background="@drawable/indicator"
+          android:onClick="seeAudithorium"/>
+
+        <ImageButton
+          android:id="@+id/imageButtonEscuelaDanza"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+          android:layout_marginBottom="26dp"
+            android:layout_above="@+id/imageButtonCetav"
+            android:layout_alignLeft="@+id/imageButtonSkatePark"
+            android:layout_alignStart="@+id/imageButtonSkatePark"
+          android:background="@drawable/indicator"
+          android:onClick="seeDanceSchool"/>
+
+        <ImageButton
+          android:id="@+id/imageButtonCampoFerial"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="105dp"
+          android:layout_marginLeft="105dp"
+            android:layout_below="@+id/imageButtonAuditorio"
+          android:layout_toEndOf="@+id/imageButtonSkatePark"
+            android:layout_toRightOf="@+id/imageButtonSkatePark"
+          android:background="@drawable/indicator"
+          android:onClick="seeFairgrounds"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
